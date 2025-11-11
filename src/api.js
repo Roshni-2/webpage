@@ -1,3 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+import API_BASE_URL from "./config";
 
-export default API_BASE_URL;
+axios.get(`${API_BASE_URL}/api/users`);
+axios.post(`${API_BASE_URL}/api/login`, userData);
