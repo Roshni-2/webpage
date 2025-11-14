@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./PaymentPage.css";
-import API_BASE_URL from "../api";
+import API from "../api.js";
 
 
 const PaymentPage = () => {

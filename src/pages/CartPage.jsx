@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./CartPage.css";
 import { useNavigate } from "react-router-dom";
-import API_BASE_URL from "../api";
+import API from "../api.js";
 
 
 const CartPage = () => {

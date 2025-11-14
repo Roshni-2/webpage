@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./ProductListPage.css";
 import { useNavigate } from "react-router-dom";
-import API_BASE_URL from "../api";
+import API_BASE_URL from "../config.js";
 
 
 const Products = [

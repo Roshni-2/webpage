@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./CheckoutPage.css";
 import { useNavigate } from "react-router-dom";
-import API_BASE_URL from "../api";
+import API from "../api.js";
 
 
 const CheckoutPage = () => {
