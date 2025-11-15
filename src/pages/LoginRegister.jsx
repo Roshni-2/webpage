@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LoginRegister.css";
 import "../App.css";
-import API from "../api.js";
 import API_BASE_URL from "../config";
 
 
@@ -22,8 +21,8 @@ const LoginRegister = () => {
     e.preventDefault();
 
     const url = isLogin
-      ? `${API_BASE_URL}/api/users/login` 
-      : `${API_BASE_URL}/api/users/register`;
+     ? `${API_BASE_URL}/api/users/login`
+     : `${API_BASE_URL}/api/users/register`;
 
     try {
       const res = await fetch(url, {
